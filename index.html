@@ -2,104 +2,106 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi portafolio</title>
+    <title>Portafolio Profesional</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
+
+    <!-- NAV / BOTONES -->
+    <nav>
+        <a href="#foto">Foto</a>
+        <a href="#descripcion">Descripción</a>
+        <a href="#conocimientos">Conocimientos</a>
+        <a href="#estudios">Estudios</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#suenos">Sueños</a>
+        <a href="#video">Video</a>
+    </nav>
+
+    <!-- HEADER -->
     <header>
-        <h1>Mi Portafolio Personal</h1>
-        <p>Bienvenido a mi Portafolio Digital.</p>
+        <h1>Mi Portafolio Personal.</h1>
+        <p class="subtitulo">Bienvenidos.</p>
     </header>
 
-    <section id="descripcion">
-        <div class="texto">
-            <h2>Descripción</h2>
-            <p>Hola, soy Katherine. 
-                Mi nombre completo es Wendy Katherine Gualdrón Marquez,soy de Yopal-Casanare,actualmente tengo 17 años, estudio en el Centro Agroindustrial de Formación Empresarial del Casanare CAFEC, que es parte de las intalaciones del SENA, en donde estoy estudiando Análisis y Desarrollo de Software.</p>
-        </div>
-        <div class="imagen">
-            <img src="asset/foto personal.jpeg" alt="Foto de Katherine" width="200">
-        </div>
-    </section>
+    <main class="contenedor">
 
-    <section>
-        <h2>Conocimientos</h2>
-            <p class="lenguaje"><i class="fa-brands fa-html5"></i> HTML</p>
-        <div class="barra">
-            <div class="progreso html">70</div>
-        </div>
+        <section id="foto" class="card foto">
+            <img src="asset/foto personal.jpeg" alt="Mi foto">
+        </section>
 
-            <p class="lenguaje"><i class="fa-brands fa-css3-alt"></i> CSS</p>
-        <div class="barra">
-            <div class="progreso css">55</div>
-        </div>
+        <section id="descripcion" class="card">
+            <h2>Descripción.</h2>
+            <p>
+                Hola, soy Katherine.</p>
 
-            <p class="lenguaje"><i class="fa-brands fa-js"></i> JavaScript</p>
-        <div class="barra">
-            <div class="progreso js">25</div>
-        </div>
-    </section>
-    <section>
-        <h2>Estudios</h2>
-        <div class="estudio">
-            <img src="asset/escudo4.jpg" alt="Escudo escuela" class="logo">
-            <div class="info">
-                <h3>Sena (en curso).</h3>
-                <h4>Tecnologo en Analisis y desarrollo de software.</h4>
-            </div>
-        </div>
-        <div class="estudio">
-            <img src="asset/escudo2.jpg" alt="Escudo escuela 2" class="logo">
-            <div class="info">
-                <h3> Bachiller Tecnico.</h3>
-                <h4>Carlos Lleras restrepo.</h4>
-            </div>
-        </div>
-          </div>
-        <div class="estudio">
-            <img src="asset/escudo3.jpg" alt="Escudo escuela 2" class="logo">
-            <div class="info">
-                <h3>Sena.</h3>
-                <h4>Tecnico en sistema.</h4>
-            </div>
+            <p>Mi nombre completo es Wendy Katherine Gualdrón Marquez,soy de Yopal-Casanare,actualmente tengo 17 años, estudio en el Centro Agroindustrial de Formación Empresarial del Casanare CAFEC, que hace parte de las intalaciones del SENA, en donde estoy estudiando Análisis y Desarrollo de Software.
+                Soy una persona responsable, creativa y motivada,
+                interesada en el desarrollo web y el aprendizaje constante.
+            </p>
+        </section>
 
-    </section>
+        <section id="conocimientos" class="card">
+            <h2>Conocimientos.</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Trabajo en equipo</li>
+                <li>Mantenimiento y ensamble de equipos</li>
+            </ul>
+        </section>
 
-    <section> 
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Conocer lugares nuevos</li>
-            <li>Maquillarme</li>
-            <li>Ver películas</li>
-            <li>Leer</li>
-            <li>Manejar moto</li>
-        </ul>
-    </section>
 
-    <section>
-        <h2>Sueños</h2>
-        <p>
-            Mi sueño es convertirme en una gran profesional y cumplir todas mis metas.
-            En lo personal, tener una vida laboral estable y un buen trabajo, tener una buena estabilidad económica, lograr tener la casa de mis sueños, el auto que quiero, y seguir aprendiendo sin miedo a equivocarme.
-        </p>
-    </section>
+        <section id="estudios" class="card">
+            <h2>Estudios.</h2>
+            <ul>
+                <li>Tecnica en sistemas</li>
+                <li>Bachiller Tecnico</li>
+                <li>Tecnologo en ADSO(proceso)</li>
+               
+            </ul>
+        </section>
 
-    <section>
-        <iframe 
-            width="100%" 
-            height="315" 
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Video externo"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </section>
+        <section id="hobbies" class="card">
+            <h2>Hobbies.</h2>
+            <ul>
+                <li>Ver peliculas</li>
+                <li>Rodar</li>
+                <li>Dibujar</li>
+                <li>Programar</li>
+                <li>Maquillarme</li>
+            </ul>
+        </section>
 
-    <footer> 
-        <p>&copy; 2026. Mi portafolio</p>
+        <section id="suenos" class="card">
+            <h2>Sueños.</h2>
+            <p>
+                Convertirme en una buena profesional de desarrollo de software.</p> 
+                <p>En lo personal, tener una vida laboral bien estable y un buen trabajo, 
+                    tener una buena estabilidad económica, lograr tener la casa de mis sueños,
+                    el auto que quiero,tener a mi familia unida siempre y seguir aprendiendo 
+                    sin miedo a equivocarme.
+            </p>
+        </section>
+<section id="video" class="card">
+    <h2> Video</h2>
+
+    <iframe
+        class="youtube-video"
+        src="https://www.youtube.com/embed/VxrIZGQfxmE"
+        title="Video de YouTube"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+
+    </main>
+
+    <footer>
+        © 2026  · Portafolio Personal.
     </footer>
 
 </body>
