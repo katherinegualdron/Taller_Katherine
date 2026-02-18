@@ -22,3 +22,6 @@ rodar
 maquilarme
 programar 
 
+## Tecnologías.
+El programa está escrito en el lenguaje de programación HMT 5, cuenta con el diseño del estilo HTML usando CSS, y desplegada usando el programa de GitHub Pages. No requiere de complementos ni directorios externas para ejecución correcta.
+
